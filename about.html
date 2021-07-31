@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+    background-image: url("aboutus.png");
+    background-size: cover;
+    
+}
+.navbar
+{
+margin: 0px;
+padding:20px;
+background-color:white;
+opacity:0.6;
+color:black;
+font-family:'Roboto',sans-serif;
+font-style: italic;
+border-radius:20px;
+font-size:25px;
+}
+a
+{
+color:grey;
+float:right;
+text-decoration:none;
+font-style:normal;
+padding-right:20px;
+}
+a:hover{
+background-color:black;
+color:white;
+border-radius:15px;0
+font-size:30px;
+padding-left:10px;
+}
+
+h1{
+font-style:italic;
+font-size:60px;
+text-align:center;
+}
+
+p
+{
+color:turqouise;
+font-style:italic;
+font-size:30px;
+}
+</style>
+</head>
+<body>
+<div class='navbar'>
+
+
+<a href="{{url_for('about')}}" >About</a>
+<a href="{{url_for('home')}}">Home</a>
+<div>
+<h1><b>About The Project</b></h1>
+
+<p>In This Project We are estimating the presence of impurites in the iron ore using IBM Watson Machine Learning.Iron ores are rocks and minerals from which metallic iron can be economically extracted. Iron is usually found in the form of Magnetite, Hematite, Goethite, Limonite, or Siderite.  Usually, Magnetite Iron ore concentrate contains an impurity of 3–7% of silica. Estimation of silica involves a lot of chemical analysis which is time-consuming and involves high operational cost. In order to cut down the operational cost and also to help engineers by predicting at a faster rate, we make use of  Machine Learning (ML). So the main goal of this project is to build a Machine Learning model to predict the impurities present in an Iron ore.</p>
+ 
+</div>
+
+
+</div>
+</body>
+</html>
